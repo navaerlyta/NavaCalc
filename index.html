@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NavaCalc</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <div class="logo">Nava<span>Calc</span></div>
+    <nav>
+      <a href="#" class="active">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <div class="title-section">
+      <h1>Mathematical <span>Calculator</span></h1>
+      <p>Simple Calculation, Smarter Solution.</p>
+    </div>
+
+    <div class="calc-card">
+      <h2>Let's Calculate!</h2>
+
+      <div class="form-group">
+        <label>First Number</label>
+        <input type="number" id="num1" placeholder="Enter first number...">
+      </div>
+
+      <div class="form-group">
+        <label>Second Number</label>
+        <input type="number" id="num2" placeholder="Enter second number...">
+      </div>
+
+      <div class="form-group">
+        <label>Select Operation</label>
+        <select id="operator">
+          <option value="+">Addition (+)</option>
+          <option value="-">Subtraction (−)</option>
+          <option value="*">Multiplication (×)</option>
+          <option value="/">Division (÷)</option>
+        </select>
+      </div>
+
+      <div class="btn-group">
+        <button type="button" id="btn-calc" class="btn-calc">Calculate</button>
+        <button type="button" id="btn-reset" class="btn-reset">Reset</button>
+      </div>
+
+      <div class="result-box">
+        <p>Calculation Result</p>
+        <h3 id="hasil">0</h3>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 <span>NavaCalc</span>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
